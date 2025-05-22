@@ -1,0 +1,26 @@
+.shops{
+    margin-left: 60px;
+    padding: 10px ;
+    align-items: center;
+}
+.shops1{
+    margin-left: 60px;
+    padding: 10px ;
+    align-items: center;
+}
+.shops2{
+    margin-left: 60px;
+    padding: 10px ;
+    align-items: center;
+}
+.block.featured-block {
+    min-height: 100vh; /* Ensure section takes full viewport height */
+    padding-bottom: 20px; /* Add space at the bottom for smooth scroll */
+  }
+  
+  section#featured {
+    margin-top: 60px; /* Adjust according to your header's height */
+  }
+  #reports {
+    margin-top: 110px; /* Adjust according to your header height */
+  }

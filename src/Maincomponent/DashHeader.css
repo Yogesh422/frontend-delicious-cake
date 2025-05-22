@@ -1,0 +1,53 @@
+.box{
+    height: 40px;
+    display: flex;
+    cursor: pointer;
+    border-radius: 30px;
+    align-items: center;
+}
+.box:hover input{
+    width: 200px;
+}
+
+.box input{
+    width: 0;
+    outline: none;
+    border: none;
+    font-weight: 500;
+    transition: 0.8s;
+    background: transparent;
+}
+
+.box a .fas{
+    color: aquamarine;
+    font-size: 18px;
+
+}
+.fas{
+    color: blue;
+}
+
+#i1{
+    color: blue;
+    margin-left: 5px;
+    margin-top: 12px;
+}
+#i2{
+    color: blue;
+    margin-left: 5px;
+}
+/* DashHeader.css */
+.dashheader {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000; /* Ensure the header stays on top of other content */
+  }
+  
+  .dash#header .navbar {
+    padding: 0;
+    justify-content: space-between;
+    background: none !important;
+  }
+  

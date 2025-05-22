@@ -1,0 +1,219 @@
+.subtitle {
+    font-size: 1.2rem;
+    color: #666;
+    margin-top: 5px;
+}
+
+.toggle {
+    cursor: pointer;
+    display: inline-block;
+  }
+  
+  .toggle-switch {
+    display: inline-block;
+    background: #ccc;
+    border-radius: 16px;
+    width: 58px;
+    height: 32px;
+    position: relative;
+    vertical-align: middle;
+    transition: background 0.25s;
+  }
+  .toggle-switch:before, .toggle-switch:after {
+    content: "";
+  }
+  .toggle-switch:before {
+    display: block;
+    background: linear-gradient(to bottom, #fff 0%, #eee 100%);
+    border-radius: 50%;
+    box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.25);
+    width: 24px;
+    height: 24px;
+    position: absolute;
+    top: 4px;
+    left: 4px;
+    transition: left 0.25s;
+  }
+  .toggle:hover .toggle-switch:before {
+    background: linear-gradient(to bottom, #fff 0%, #fff 100%);
+    box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.5);
+  }
+  .toggle-checkbox:checked + .toggle-switch {
+    background: #56c080;
+  }
+  .toggle-checkbox:checked + .toggle-switch:before {
+    left: 30px;
+  }
+  
+  .toggle-checkbox {
+    position: absolute;
+    visibility: hidden;
+  }
+  
+  .toggle-label {
+    margin-left: 5px;
+    position: relative;
+    top: 2px;
+  }
+  
+
+.title-holders h2{
+    margin-top: 120px;
+    text-align: left;
+    margin-left: 240px;
+    color: #f64b4b;
+}
+
+.hr1{
+    width: 150px;
+    margin-left: 240px;
+    border: 1px solid rgb(3, 106, 146);
+    border-radius: 2px;
+}
+
+.cardcontainers {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 240px;
+    gap: 20px;
+    margin-top: 20px;
+    
+}
+
+.cards {
+    width: 220px;
+    background: #fff;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 15px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.cards:hover {
+    transform: scale(1.05);
+}
+
+.cards img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+.cards h5 {
+    font-size: 1.2rem;
+    margin: 10px 0;
+    color: #333;
+    text-align: center;
+}
+
+.cards h6 {
+    font-size: 1rem;
+    color: #555;
+    margin: 5px 0;
+    text-align: left;
+}
+
+.cards p {
+    font-size: 0.9rem;
+    color: #777;
+    margin-top: 10px;
+    text-align: left;
+}
+
+@media (max-width: 768px) {
+    .cardcontainers {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .card {
+        width: 90%;
+    }
+}
+.sidebars {
+    width: 300px;
+    height: 100%;
+    margin-left: 10px;
+    position: fixed;
+
+}
+.sidebars input {
+    width: 100%;
+    padding: 10px;
+    margin-top: 120px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+.sidebars .dropdown {
+    width: 100%;
+    margin-top: 20px;
+}
+
+.sidebars .dropdown button {
+    width: 100%;
+    text-align: left;
+    color: white;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 16px;
+}
+
+.sidebars .dropdown button:hover {
+    background-color: #fff;
+}
+#mc{
+  margin-top: 20px;
+}
+#view{
+    margin-top: 5px;
+}
+
+/* Pagination.css */
+.pagination {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+  gap: 10px;
+}
+
+.pagination .page-item {
+  margin: 0 3px; /* Space between items */
+}
+
+.pagination .page-link {
+  border: none;
+  border-radius: 5px;
+  padding: 6px 12px;
+  color: #333;
+  background-color: #fff;
+  transition: background-color 0.2s ease, color 0.2s ease;
+}
+
+.pagination .page-link:hover {
+  background-color: #f8f9fa;
+  color: #f64b4b;
+}
+
+.pagination .page-item.active .page-link {
+  background-color: #f64b4b;
+  color: #fff;
+  border-color: #f64b4b;
+}
+
+.pagination .page-item.disabled .page-link {
+  color: #ccc;
+  background-color: #f8f9fa;
+  border-color: #ddd;
+}
+.pagination .page-link svg {
+  width: 16px;
+  height: 16px;
+}
+
+
+
+
+  
